@@ -4,7 +4,7 @@ function y=my_isprime(n)
         return
     end
     for i=2:sqrt(n)
-        if mod(n,i)==0
+        if ~mod(n,i)
             y=false;
             return
         end
