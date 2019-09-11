@@ -1,5 +1,5 @@
 function y=my_isprime(n)
-    if n==1
+    if ~isinteger(n) && n <=0
         y=false;
         return
     end
