@@ -5,7 +5,7 @@ function y=myisprime(n)
     elseif ~isreal(n)
         y=false;
         return
-    elseif n == 2 || n < 0
+    elseif n <= 2
         y=false;
         return
     elseif ~(n == floor(n))
