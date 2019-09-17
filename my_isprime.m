@@ -1,11 +1,11 @@
-function y=myisprime(n)
+function y=my_isprime(n)
     if n == inf
         y=false;
         return
     elseif ~isreal(n)
         y=false;
         return
-    elseif n <= 2
+    elseif n <= 1
         y=false;
         return
     elseif ~(n == floor(n))
@@ -13,7 +13,7 @@ function y=myisprime(n)
         return      
     end
     
-    for i=3:sqrt(n)
+    for i=2:sqrt(n)
         if ~mod(n,i)
             y=false;
             return
