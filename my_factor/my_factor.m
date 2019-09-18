@@ -1,3 +1,4 @@
+% 배열을 사용하지 않고 소인수분해 식을 
 function y = my_factor(n)
     if n==1
         y = "1";
