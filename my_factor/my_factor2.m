@@ -1,3 +1,4 @@
+% 배열을 이용하요 소인수분해 식을 구하는 
 function y = my_factor2(n)
     if n==1
         y = "1";
