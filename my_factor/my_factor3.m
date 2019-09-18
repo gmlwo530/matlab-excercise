@@ -1,3 +1,6 @@
+% 배열을 사용하지 않고, my_factor, my_factor_2와 다른 형태의 소인수분해 식을 구하는 함수
+% 출력 값 예시) 12 = 2x2x3
+
 function y = my_factor3(n)
     if n==1
         y = "1";
